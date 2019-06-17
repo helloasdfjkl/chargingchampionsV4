@@ -2,59 +2,115 @@
     background-size: cover;
     background-position: center;
     border: 10px solid white;
+    color: transparent;
+    height: 300px;
+    text-align: center;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
 }
 
+    .expand:hover {
+        color: black;
+        border: hidden;
+        text-shadow: 0px 0px 2px white;
+        -webkit-transition: color .2s ease-in;
+        -moz-transition: color .2s ease-in;
+        -o-transition: color .2s ease-in;
+    }
+
+
+.expand span {
+    font-weight: bold;
+}
+
+
+.image.fit {
+    color: black !important;
+    text-shadow: 0px 0px 5px white;
+}
+
+.expand p {
+    font-size: 13px;
+}
 #a {background-image: url("https://i.postimg.cc/mZyyLfFL/arjun.jpg");}
+    #a:hover {
+        background-image: url("https://i.postimg.cc/VvjVXPL0/arjun.jpg");
+    }
 #b {background-image: url("https://i.postimg.cc/L52ktvGF/albert.jpg");}
+    #b:hover {
+        background-image: url("");
+
+    }
 #c {background-image: url("https://i.postimg.cc/HsS0Mw2F/david.jpg");}
-#d {
-    background-image: url("https://i.postimg.cc/W3M6qxW7/aaron.jpg");
+    #c:hover {
+        background-image: url("https://i.postimg.cc/fTdwgVkY/david.jpg");
+    }
+#d {background-image: url("https://i.postimg.cc/W3M6qxW7/aaron.jpg");}
+    #d:hover {
+        background-image: url("https://i.postimg.cc/Jnd1SJb5/aaron.jpg");
+    }
+#e {background-image: url("https://i.postimg.cc/4NvqRSXV/adrin.jpg");}
+    #e:hover {
+        background-image: url("https://i.postimg.cc/sxQVzXmd/adrin.jpg");
+    }
+#f {background-image: url("https://i.postimg.cc/285hCqDG/radin.jpg");}
+    #f:hover {
+        background-image: url("https://i.postimg.cc/VsC62GVS/radin.png");
+    }
+#g {background-image: url("https://i.postimg.cc/13kq0JN7/selina.jpg");}
+    #g:hover {
+        background-image: url("https://i.postimg.cc/1Xw36Xq0/selina.png");
+    }
+#h {background-image: url("https://i.postimg.cc/2y0W4Y4n/jingwen.jpg");}
+    #h:hover {
+        background-image: url("https://i.postimg.cc/HLYdx3zt/jingwen.jpg");
+    }
+#i {background-image: url("https://i.postimg.cc/6QZCFDXN/jamie.png");}
+    #i:hover {
+        background-image: url("https://i.postimg.cc/qqPpvTDt/jamie.jpg");
+    }
+#j {background-image: url("https://i.postimg.cc/cHmtSWkP/yiming.jpg");}
+    #j:hover {
+        background-image: url("https://i.postimg.cc/yNpxCwKR/yiming.png");
+    }
+#k {background-image: url("https://i.postimg.cc/0yMSJLrJ/max.jpg");}
+    #k:hover {
+        background-image: url("https://i.postimg.cc/W3D3NXpH/max.png");
+    }
+#l {background-image: url("https://i.postimg.cc/PJyW2Ykp/alicia.png");}
+#l:hover {
+    background-image: url("");
 }
-#e {
-    background-image: url("https://i.postimg.cc/4NvqRSXV/adrin.jpg");
-}
-#f {
-    background-image: url("https://i.postimg.cc/285hCqDG/radin.jpg");
-}
-#g {
-    background-image: url("https://i.postimg.cc/13kq0JN7/selina.jpg");
-}
-#h {
-    background-image: url("https://i.postimg.cc/2y0W4Y4n/jingwen.jpg");
-}
-#i {
-    background-image: url("https://i.postimg.cc/6QZCFDXN/jamie.png");
-}
-#j {
-    background-image: url("https://i.postimg.cc/cHmtSWkP/yiming.jpg");
-}
-#k {
-    background-image: url("https://i.postimg.cc/0yMSJLrJ/max.jpg");
-}
-#l {
-    background-image: url("https://i.postimg.cc/PJyW2Ykp/alicia.png");
-}
-#m {
-    background-image: url("https://i.postimg.cc/rmcR3sjS/thomas.png");
-}
-#n {
-    background-image: url("https://i.postimg.cc/28jF3c44/jack.jpg");
-}
-#o {
-    background-image: url("https://i.postimg.cc/fyzXty0w/krish.jpg");
-}
-#p {
-    background-image: url("https://i.postimg.cc/3r12MXPW/sriyan.jpg");
-}
-#q {
-    background-image: url("https://i.postimg.cc/7LSTK03H/rohan.jpg");
-}
-#r {
-    background-image: url("https://i.postimg.cc/htfL1XZv/jaimin.jpg");
-}
-#s {
-    background-image: url("https://i.postimg.cc/651Rq96X/parva.jpg");
-}
-#t {
-    background-image: url("https://i.postimg.cc/RZycsv2R/euan.jpg");
-}
+#m {background-image: url("https://i.postimg.cc/rmcR3sjS/thomas.png");}
+    #m:hover {
+        background-image: url("");
+    }
+#n {background-image: url("https://i.postimg.cc/28jF3c44/jack.jpg");}
+    #n:hover {
+        background-image: url("https://i.postimg.cc/RZzMrvny/jack.jpg");
+    }
+#o {background-image: url("https://i.postimg.cc/fyzXty0w/krish.jpg");}
+    #o:hover {
+        background-image: url("https://i.postimg.cc/7ZDf33X5/krish.png");
+    }
+#p {background-image: url("https://i.postimg.cc/3r12MXPW/sriyan.jpg");}
+    #p:hover {
+        background-image: url("https://i.postimg.cc/VNkvTzx1/sriyan.png");
+    }
+#q {background-image: url("https://i.postimg.cc/7LSTK03H/rohan.jpg");}
+    #q:hover {
+        background-image: url("https://i.postimg.cc/4dr3mVmN/rohan.png");
+    }
+#r {background-image: url("https://i.postimg.cc/htfL1XZv/jaimin.jpg");}
+    #r:hover {
+        background-image: url("https://i.postimg.cc/xjhfRvj0/jaimin.jpg");
+    }
+#s {background-image: url("https://i.postimg.cc/651Rq96X/parva.jpg");}
+    #s:hover {
+        background-image: url("https://i.postimg.cc/MpDXdnrd/parva.png");
+    }
+#t {background-image: url("https://i.postimg.cc/RZycsv2R/euan.jpg");}
+    #t:hover {
+        background-image: url("https://i.postimg.cc/4xbXsj6d/euan.jpg");
+    }
