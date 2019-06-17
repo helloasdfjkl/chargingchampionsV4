@@ -1,0 +1,76 @@
+ <div id="sidebar">
+	<div class="inner">
+                    
+		<!-- Menu -->
+            <nav id="menu">
+                 <a target="_blank" href="https://www.paypal.com/donate/?token=OFJPItyD4As7s3q9fsHd7iKxS7mqAizg12xoReG2f-3CfA2e8aYtGW9LHCJHxA7E2SZMDG&country.x=US&locale.x=US" class="button fit">Donate</a><br /><br />
+                 <ul>					
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<span class="opener">About</span>
+						<ul>
+							<li><a href="about-our-team.html">Our Team</a></li>
+							<li><a href="about-awards.html">Awards</a></li>
+							<li><a href="about-first.html">FIRST Robotics</a></li>
+						</ul>
+					</li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li>
+						<span class="opener">Documentation</span>
+						<ul>
+							<li><a href="documentation-notebook.html">Notebook</a></li>
+							<li><a href="documentation-cad.html">CAD</a></li>
+							<li><a href="documentation-robots.html">Robots</a></li>
+							<li><a href="documentation-videos.html">Videos</a></li>
+						</ul>
+					</li>
+					<li><a href="support-us.html">Support Us</a></li>
+		
+			</nav>
+
+			<!-- Section -->
+			<section>
+				<h3>Form</h3>
+				<form method="post" action="#">
+					<div class="row gtr-uniform">
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+						</div>
+						
+						<!-- Break -->
+						<div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-human" name="demo-human" checked>
+							<label for="demo-human">I am a human</label>
+						</div>
+						
+						<!-- Break -->
+						<div class="col-12">
+							<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+						</div>
+						
+						<!-- Break -->
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" class="primary" /></li>
+								<li><input type="reset" value="Reset" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a target = "_blank" href="https://www.youtube.com/channel/UCopXKZO1IG3zsvQKCXF4ESQ" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+					<li><a target = "_blank" href="https://www.facebook.com/chargingchampions/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a target = "_blank" href="https://www.instagram.com/chargingchampionsfrc" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<p class="copyright">&copy; FRC Team 6560. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			</footer>
+
+		</div>
+	</div>

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Home - Team 6560</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="shortcut icon" href="images/logos/icon1.png">
+</head>
+
+<body class="is-preload">
+ <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+		 </div>
+        <div id="sidebar">
+            <div class="inner">
+
+                <!-- Menu -->
+                <nav id="menu">
+                    <form target ="_blank" style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="TCYYLLYPK6S5W">
+                            <input style="text-align: center;" type="submit" class ="button fit" border="0" value="Donate">
+                        </form>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <span class="opener">About</span>
+                            <ul>
+                                <li><a href="about-our-team.html">Our Team</a></li>
+                                <li><a href="about-our-history.html">Our History</a></li>
+                                <li><a href="about-awards.html">Awards</a></li>
+                                <li><a href="about-first.html">FIRST Robotics</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li>
+                            <span class="opener">Documentation</span>
+                            <ul>
+                                <li><a href="documentation-notebook.html">Notebook</a></li>
+                                <li><a href="documentation-cad.html">CAD</a></li>
+                                <li><a href="documentation-robots.html">Robots</a></li>
+                                <li><a href="documentation-videos.html">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="support-us.html">Support Us</a></li>
+
+                </nav>
+
+              
+
+                <!-- Footer -->
+                <footer id="footer">
+                    <ul class="icons">
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCopXKZO1IG3zsvQKCXF4ESQ" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/chargingchampions/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/chargingchampionsfrc" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
+                    <p class="copyright">&copy; FRC Team 6560. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                </footer>
+
+            </div>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/carousel.min.js"></script>
+</html>
