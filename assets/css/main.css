@@ -7,7 +7,51 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 /*mai own shtuff*/
+
+/*about-first*/
+
+.row > .col-6 {
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 3%;
+    
+}
+
+
+    .row > .col-6 > a > img {
+        height: 100%;
+        border-radius: 3%;
+    }
+
+    .resizeme {
+        width: 499px;
+        height: 250px;
+    }
+
+@media screen and (max-width: 736px) {
+    .row > .col-6 > a> img {
+        width: 100%;
+    }
+    .margin-plz {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1537px) {
+    .row > .col-6 > a > img {
+        width: 100%;
+
+    }
+    .row > .col-6 {
+        font-size: 16px;
+    }
+}
+
+.leagues img {
+    width: 100%;
+}
 .we-in-here {
     position: relative;
     top: 70px;
