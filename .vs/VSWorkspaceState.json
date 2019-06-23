@@ -5,8 +5,9 @@
     "\\assets\\css",
     "\\images",
     "\\images\\home",
-    "\\images\\logos"
+    "\\images\\logos",
+    "\\templates"
   ],
-  "SelectedNode": "\\assets\\css\\team.css",
+  "SelectedNode": "\\support-us.html",
   "PreviewInSolutionExplorer": false
 }

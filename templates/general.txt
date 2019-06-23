@@ -16,6 +16,11 @@
 
         <!-- Main -->
         <div id="main">
+			<div class="inner">
+                <div id="our-journey-header" class="inner">
+                    <h2 id="our-history-color">Header</h2>
+                </div>
+			</div>
 		 </div>
         <div id="sidebar">
             <div class="inner">
