@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="shortcut icon" href="images/logos/icon1.png">
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("mySelect").value;
+            document.getElementById("demo").src = "pdf/" + x + ".pdf";
+        }
+    </script>
 </head>
 
 <body class="is-preload">
@@ -18,13 +25,30 @@
         <div id="main">
             <div class="inner">
                 <div id="our-journey-header" class="inner">
-                    <h2 id="our-history-color">Header</h2>
+                    <h2 id="our-history-color">Notebook</h2>
+                </div>
+                <div class="we-in-here">
+                    <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+                    <div style="width:200px;">
+                        <select id="mySelect" onchange="myFunction()">
+                            <option class="tablinks" value="0">Select season:</option>
+                            <option id="one" src="" value="1">18-19 Season</option>
+                            <option id="two" value="2">18-19 Preseason</option>
+                            <option id="three" value="3">17-18 Season</option>
+                            <option id="four" value="4">16-17 Preseason</option>
+                            <option id="five" value="5">15-16 Season</option>
+                        </select>
+                    </div>
+
+                    <embed id="demo" src="" type="application/pdf" width="100%" height="600px"/>
+
                 </div>
             </div>
         </div>
+        
         <div id="sidebar">
             <div class="inner">
-
+                
                 <!-- Menu -->
                 <nav id="menu">
                     <form target="_blank" style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -72,10 +96,13 @@
             </div>
         </div>
 
+        
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/carousel.min.js"></script>
+    </div>
+    </body>
 </html>
