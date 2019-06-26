@@ -2,12 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\js",
+    "\\assets\\sass\\base",
     "\\images",
+    "\\images\\CCPICS",
+    "\\images\\CCPICS\\FRC",
+    "\\images\\CCPICS\\FRC\\18-19",
     "\\images\\home",
-    "\\images\\logos",
-    "\\templates"
+    "\\images\\logos"
   ],
-  "SelectedNode": "\\support-us.html",
+  "SelectedNode": "\\images\\CCPICS\\FRC\\18-19\\9.jpg",
   "PreviewInSolutionExplorer": false
 }

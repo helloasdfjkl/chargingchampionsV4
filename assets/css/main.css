@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
+html {
+    scroll-behavior: smooth;
+}
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -12,7 +15,23 @@
 /*notebook*/
 /* Create an active/current tablink class */
 
+/*gallery*/
+#button-nav {
+  position: fixed;
+  
+  width: 100%;
+  background-color: #c7d3e5;
+  z-index: 2;
+}
 
+#button-nav a{
+    color: white;
+    text-decoration: none
+}
+    #button-nav p {
+        margin: 0;
+        text-align: center;
+    }
 /*about-awards*/
 .tbl {
     margin-top: 80px;
