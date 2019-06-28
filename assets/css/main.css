@@ -21,6 +21,7 @@
 }
 
 .paypal {
+    min-width: 0%;
     width: 40%;
 }
 /*sponsors*/
