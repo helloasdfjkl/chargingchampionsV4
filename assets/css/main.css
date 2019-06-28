@@ -11,6 +11,95 @@
 /*notebook*/
 /* Create an active/current tablink class */
 
+#menu img {
+    max-width: 100%;
+}
+
+.flexpaypal {
+    display: flex;
+    justify-content: center;
+}
+
+.paypal {
+    width: 40%;
+}
+/*sponsors*/
+.sponsor header{
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.spon-ranks {
+    width: 80%;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+#gold, #silver, #bronze {
+    border-radius: 0;
+}
+
+#gold:hover {
+    background-color: #dfd440;
+}
+
+    #silver:hover {
+        background-color: rgb(170, 170, 170);
+
+    }
+
+    #bronze:hover {
+        background-color: rgb(154, 119, 43);
+    }
+
+    .boxspon {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+#sponsors-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+#sponsors-list > a {
+    border-bottom: none;
+}
+
+#sponsors-list > a > img {
+    height: 200px;
+    padding: 20px;
+}
+
+#paypal {
+    padding-top: 5px;
+}
+
+table {
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 980px) {
+    #sponsors-list > a > img {
+        height: 100px;
+        padding: 10px;
+    }
+
+    
+}
 /*gallery*/
 #thisseason {
     margin-top: 0;
@@ -1930,7 +2019,7 @@ header.major > :last-child {
 /* Form */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 0 0 .5em 0;
 	}
 
 	label {
