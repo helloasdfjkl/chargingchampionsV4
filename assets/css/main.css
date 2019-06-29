@@ -8,9 +8,36 @@
 
 
 /*mai own shtuff*/
+
+/*cad*/
+@media screen and (max-width: 980px) {
+    #cadnav.col-12-medium {
+        background-color: white;
+        text-align: left;
+        box-shadow: none;
+    }
+}
+
+ul b {
+    font-size: 16px;
+
+}
+.nomargin {
+    margin: 5px;
+    
+}
+#cadnav {
+    background-color: rgba(229, 232, 233, 0.75);
+    
+    box-shadow: black 0px 0px 2px;
+    margin-bottom: 20px;
+}
+
+    #cadnav ul {
+        padding: 10px 15px;
+    }
 /*notebook*/
 /* Create an active/current tablink class */
-
 #menu img {
     max-width: 100%;
 }
@@ -24,6 +51,7 @@
     min-width: 0%;
     width: 40%;
 }
+
 /*sponsors*/
 .sponsor header{
     text-align: center;
@@ -39,7 +67,7 @@
 .spon-ranks {
     width: 80%;
 }
-/* Style the tab content */
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -1736,7 +1764,7 @@ input, select, textarea {
         
         @media screen and (max-width: 540px) {
             .row > .col-3 {
-                    width: 90%;
+                    width: 100%;
                     text-align: center;
                 }
             
@@ -1806,7 +1834,7 @@ input, select, textarea {
 				}
 
                 .row > .col-3 {
-                    width: 90%;
+                    width: 100%;
                     text-align: center;
                     
                 }

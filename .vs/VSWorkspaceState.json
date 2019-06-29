@@ -3,14 +3,14 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\js",
     "\\images",
     "\\images\\CCPICS",
     "\\images\\CCPICS\\FRC",
     "\\images\\CCPICS\\FRC\\18-19",
     "\\images\\home",
-    "\\images\\logos"
+    "\\images\\logos",
+    "\\templates"
   ],
-  "SelectedNode": "\\documentation-notebook.html",
+  "SelectedNode": "\\assets\\css\\bootstrap.min.css",
   "PreviewInSolutionExplorer": false
 }

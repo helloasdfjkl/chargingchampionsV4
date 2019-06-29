@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" href="images/logos/icon1.png">
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("mySelect").value;
+            document.getElementById("demo").src = "pdf/cad/" + x + ".pdf";
+        }
+    </script>
 </head>
 
 <body class="is-preload">
@@ -20,18 +27,61 @@
                     <h2 id="our-history-color">CAD</h2>
                 </div>
 
-                <div class="container">
+
+                <div class="we-in-here">
+
                     <div class="row">
-                        <div class="col-sm-12">
-                            <h1 class="text-center display-4 mt-5">
-                                Solodev Web Design & Content Management Software
-                            </h1>
-                            <p class="text-center mt-5">
-                                <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Why Solodev WXP</a>
-                            </p>
-                            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-                                <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div class="col-6 col-12-medium">
+                            <p>Before a robot is created, it must be planned out with a design. CAD (Computer Aided Design) is one of the best ways to design, dimension, and build a robot virtually before actually building it in the real world.</p>
+                            In our first year, we decided to use SolidWorks to design our robots. SolidWorks helped us detect stress issues,
+                                simulate for interference of parts, design components to get an idea of how they will fit on the robot,
+                                and create animations for the 2016-17 competition season.
+                                For the 2018 season we moved to Autodesk Inventor and have since thenbeen using it successfully to model our design ideas.<br /><br />
+                            
+                        </div>
+                        <div class="col-3 col-6-medium">
+                            <img class="image fit" src="https://i.postimg.cc/tCnrYRLQ/cadrobot.png" />
+                            
+                        </div>
+                        <div class="col-3 col-6-medium">
+                            <img class="image fit" src="https://i.postimg.cc/QdZf7kqj/cad2.png"/>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div id="cadnav" class="col-3 col-12-medium col-12-small">
+                            <ul>
+                                <b>CAD Videos</b>
+                                <hr class="nomargin"/>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=Xukloa0M8XU&t=5s">
+                                    FRC 2019 Team 6560 CAD Reveal </a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=h8fhO-S2BLc&t=1s">CAD Video of Caliente (17-18)</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=8uJsI97fhBg">Sketchy CAD Animation (16-17)</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=DR6HwGJbUMY">CAD Progression Over the Years</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=TrKdqulSIpg">FRC Robot Animation World Championship</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=FDGtQhf4bYA">FTC Component Robot Assembly</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=71VFNlMR6E8">Robot Animation FTC Super-Regional</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=3E4bxC23GZ4">Robot Animation FTC Regionals</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/watch?v=JV_epgMnPjY">FTC Robot Assembly Animation 2015-2016 - Perris Qualfier</a></li>
+                                <li>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=8TxoLLhGblc">
+                                        Robot Assembly 2015- 2016 - Palmdale Qualifier
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-9 col-12-medium col-12-small">
+                            <div style="width:200px;">
+                                <select id="mySelect" onchange="myFunction()">
+                                    <option class="tablinks" value="0">Select season:</option>
+                                    <option id="one" src="" value="1">18-19</option>
+                                    <option id="two" value="2">17-18</option>
+                                    <option id="three" value="3">16-17</option>
+                                </select>
                             </div>
+
+                            <embed id="demo" src="" type="application/pdf" width="100%" height="700" />
                         </div>
                     </div>
                 </div>
@@ -50,6 +100,7 @@
                             <ul>
                                 <li><a href="about-our-team.html">Our Team</a></li>
                                 <li><a href="about-our-history.html">Our History</a></li>
+                                <li><a href="about-outreach.html">Outreach</a></li>
                                 <li><a href="about-awards.html">Awards</a></li>
                                 <li><a href="about-first.html">FIRST Robotics</a></li>
                             </ul>
@@ -61,7 +112,6 @@
                                 <li><a href="documentation-notebook.html">Notebook</a></li>
                                 <li><a href="documentation-cad.html">CAD</a></li>
                                 <li><a href="documentation-robots.html">Robots</a></li>
-                                <li><a href="documentation-videos.html">Videos</a></li>
                             </ul>
                         </li>
                         <li><a href="sponsors.html">Sponsors</a></li>
@@ -98,5 +148,4 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/carousel.min.js"></script>
 </html>
