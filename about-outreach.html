@@ -7,17 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" href="images/logos/icon1.png">
+
 </head>
 
 <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
+        <div class='jqbox_overlay'></div>
+        <div class='jqbox_innerhtml' id="our-journey-header">
+            <h2 id="our-history-color">Outreach</h2>
+        </div>
 
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-                <div id="our-journey-header" class="inner">
-                    <h2 id="our-history-color">Header</h2>
+        <div class="we-in-here2" id="slideshowcenter">
+            <div class="slideshow">
+                <img class="fitx fade mySlides" src="https://i.postimg.cc/RV45DM4g/1.jpg">
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/J7bCxyVy/4.jpg">
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/VNpPGnkt/5.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/yxXq8GXh/6.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/9M95v0Dn/7.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/8cVQDGWP/8.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/2S5pC2qv/9.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/rpdvrsNw/10.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/m2jfx0rB/11.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/htZkvTxY/12.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/BvdRc3mc/13.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/QCDPwbGF/14.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/W3gC5yKR/15.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/vTvjsVb3/16.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/1592KJrT/17.jpg" />
+                <img class=" fitx fade mySlides" src="https://i.postimg.cc/Vs92M3nn/18.jpg" />
+            </div>
+            <!-- Main -->
+            <div id="main">
+
+
+                <div class="inner">
+
+                    The vision of FIRST is more than just building robots. It is to spread the knowledge and ideas of STEM to developing youths.
+                    Last year, our Charging Champions Team delivered presentations about STEM and FIRST to multiple schools within the Orange County Area,
+                    worked with various schools, scout troops and other organizations. The presentations were followed by hands-on demonstration of the
+                    robot which was a resounding success, as kids of all ages showed tremendous curiosity, interest and motivation. We've started new
+                    conversations this year and intend to expand our outreach, hoping to support schools in Tustin  and Santa Ana school districts this year.
+                    <hr />
+                    We have been inspiring students since 2011. We have presented our experience to 350+ students, parents and teachers. Our goals are big
+                    and we have reached out to more schools. Our goal is to reach 500 kids across a diverse cross section in Orange County.
+                    <hr />
+                    <div class="row">
+                          <div class="col-6 col-12-small viv">
+                              <h3>This year, we reached out to Vivian Fowler Memorial College in Nigeria, and through our guidance and support, they’re charging up to
+                              compete in FTC next year forming the first team (All-Girls Team) from Nigeria.</h3>
+                          </div>
+                          <div class="col-6 col-12-small">
+                              <img class="image fit" src="https://i.postimg.cc/NF7MvpKS/2.jpg" />
+                          </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,7 +89,7 @@
                                 <li><a href="documentation-notebook.html">Notebook</a></li>
                                 <li><a href="documentation-cad.html">CAD</a></li>
                                 <li><a href="documentation-robots.html">Robots</a></li>
-                                
+
                             </ul>
                         </li>
                         <li><a href="sponsors.html">Sponsors</a></li>
@@ -71,6 +114,9 @@
                         <li><a target="_blank" href="https://www.youtube.com/channel/UCopXKZO1IG3zsvQKCXF4ESQ" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
                         <li><a target="_blank" href="https://www.facebook.com/chargingchampions/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                         <li><a target="_blank" href="https://www.instagram.com/chargingchampionsfrc" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a target="_blank" href="https://chargingchampionsblog.blogspot.com/" class="icon brands fa-blogger"><span class="label">Blogger</span></a></li>
+                        <li><a target="_blank" href="https://twitter.com/FRCTeamCC" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a target="_blank" href="mailto:charging.champions@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
                     </ul>
                     <p class="copyright">&copy; FRC Team 6560. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
                 </footer>
@@ -78,6 +124,23 @@
             </div>
         </div>
 
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+
+        </script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
         <script src="assets/js/breakpoints.min.js"></script>

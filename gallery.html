@@ -12,21 +12,24 @@
 </head>
 
 <body onload="myFunction()" class="is-preload">
+    <div class='jqbox_overlay'></div>
+    <div class='jqbox_innerhtml noboxshadow' id="our-journey-header">
+        
+        <h2 id="our-history-color">Gallery</h2>
+        <div id="button-nav">
+            <p><a href="#thisseason">This Season </a> | <a href="#competitions">Competitions </a> | <a href="#priorseasons">Prior Seasons</a></p>
+        </div>
+    </div>
     <!-- Wrapper -->
     <div id="wrapper">
 
         <!-- Main -->
         <div id="main">
-            <div id="button-nav">
-                <p>| <strong>View: </strong><a href="#thisseason">This Season </a> | <a href="#competitions">Competitions </a> | <a href="#priorseasons">Prior Seasons</a></p>
-            </div>
-            <div class="inner">
-                <div id="our-journey-header" class="inner">
-                    <h2>Gallery</h2>
-                </div>
+            
+            <div  class="inner">
                 
                 <div class="we-in-here">
-                    <hr id ="thisseason" class="major" />
+                    <hr id="thisseason" />
                     <h3>Current Season</h3>
                     <div class="tz-gallery margin-top-xl">
                         <div class="container">
@@ -45,16 +48,12 @@
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/25.jpg"><img src="images/CCPICS/FRC/18-19/25.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/26.jpg"><img src="images/CCPICS/FRC/18-19/26.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/27.jpg"><img src="images/CCPICS/FRC/18-19/27.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/28.jpg"><img src="images/CCPICS/FRC/18-19/28.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/29.jpg"><img src="images/CCPICS/FRC/18-19/29.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/30.jpg"><img src="images/CCPICS/FRC/18-19/30.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/31.jpg"><img src="images/CCPICS/FRC/18-19/31.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/32.jpg"><img src="images/CCPICS/FRC/18-19/32.jpg" /></a></div>
                             </div>
                             <hr id="competitions" class="major" />
                         </div>
                     </div>
-                    <h3 >Competitions</h3>
+                    <h3>Competitions</h3>
                     <div class="tz-gallery margin-top-xl">
                         <div class="container">
                             <div class="row">
@@ -63,10 +62,6 @@
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/3.jpg"><img src="images/CCPICS/FRC/18-19/Competition/3.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/4.jpg"><img src="images/CCPICS/FRC/18-19/Competition/4.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/5.jpg"><img src="images/CCPICS/FRC/18-19/Competition/5.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/6.jpg"><img src="images/CCPICS/FRC/18-19/Competition/6.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/7.jpg"><img src="images/CCPICS/FRC/18-19/Competition/7.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/8.jpg"><img src="images/CCPICS/FRC/18-19/Competition/8.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/9.jpg"><img src="images/CCPICS/FRC/18-19/Competition/9.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/10.jpg"><img src="images/CCPICS/FRC/18-19/Competition/10.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/11.jpg"><img src="images/CCPICS/FRC/18-19/Competition/11.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/18-19/Competition/12.jpg"><img src="images/CCPICS/FRC/18-19/Competition/12.jpg" /></a></div>
@@ -78,7 +73,7 @@
                         </div>
                     </div>
                     <hr id="priorseasons" class="major" />
-                    <h3 >Prior Seasons</h3>
+                    <h3>Prior Seasons</h3>
                     <div class="tz-gallery margin-top-xl">
                         <div class="container">
                             <div class="row">
@@ -94,10 +89,6 @@
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/12.jpg"><img src="images/CCPICS/FRC/priorseasons/12.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/17.jpg"><img src="images/CCPICS/FRC/priorseasons/17.jpg" /></a></div>
                                 <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/18.jpg"><img src="images/CCPICS/FRC/priorseasons/18.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/23.jpg"><img src="images/CCPICS/FRC/priorseasons/23.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/24.jpg"><img src="images/CCPICS/FRC/priorseasons/24.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/29.jpg"><img src="images/CCPICS/FRC/priorseasons/29.jpg" /></a></div>
-                                <div class="col-3 col-sm-6 col-md-4"><a class="lightbox" href="images/CCPICS/FRC/priorseasons/30.jpg"><img src="images/CCPICS/FRC/priorseasons/30.jpg" /></a></div>
                             </div>
                         </div>
                     </div>
@@ -154,6 +145,9 @@
                         <li><a target="_blank" href="https://www.youtube.com/channel/UCopXKZO1IG3zsvQKCXF4ESQ" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
                         <li><a target="_blank" href="https://www.facebook.com/chargingchampions/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                         <li><a target="_blank" href="https://www.instagram.com/chargingchampionsfrc" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a target="_blank" href="https://chargingchampionsblog.blogspot.com/" class="icon brands fa-blogger"><span class="label">Blogger</span></a></li>
+                        <li><a target="_blank" href="https://twitter.com/FRCTeamCC" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a target="_blank" href="mailto:charging.champions@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
                     </ul>
                     <p class="copyright">&copy; FRC Team 6560. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
                 </footer>

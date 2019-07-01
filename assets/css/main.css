@@ -1,43 +1,119 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css?family=Karla:400i,700i&display=swap');
+
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
-/*mai own shtuff*/
-
-/*cad*/
-@media screen and (max-width: 980px) {
-    #cadnav.col-12-medium {
-        background-color: white;
-        text-align: left;
-        box-shadow: none;
-    }
+/*customized*/
+/*outreach*/
+.viv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mySlides {
+    display: none;
 }
 
-ul b {
-    font-size: 16px;
+.we-in-here2 {
+    position: relative;
+    top:65px;
+}
 
+.fitx {
+    height: 400px;
+    max-width: 1000px;
+    object-fit: cover;
+    box-shadow: black 0px 0px 3px;
 }
-.nomargin {
-    margin: 5px;
-    
-}
-#cadnav {
-    background-color: rgba(229, 232, 233, 0.75);
-    
-    box-shadow: black 0px 0px 2px;
+.slideshow {
+    display: flex;
+    justify-content: center;
+    box-shadow: black 0px 0px 3px;
     margin-bottom: 20px;
 }
 
-    #cadnav ul {
-        padding: 10px 15px;
+@media screen and (min-width: 2000px) {
+    .fitx {
+        height: 500px;
     }
-/*notebook*/
-/* Create an active/current tablink class */
+}
+@media screen and (max-width: 1280px) {
+    .fitx {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .slideshow {
+        background-color: none;
+    }
+    .fitx {
+        overflow: hidden;
+    }
+}
+/*robots*/
+.yeeter {
+    margin: 20px;
+}
+
+#background-img {
+    background-color: #5194ff;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.main-content {
+    padding: 40px 0;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+    .main-content .robotsec {
+        background-color: white;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        background-clip: content-box;
+    }
+
+#our-journey-header {
+    color: #5194ff;
+    width: 100%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.jqbox_innerhtml {
+    position: fixed;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 10px;
+    z-index: 200;
+    box-shadow: black 0 0 5px;
+}
+
+    .jqbox_innerhtml h2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+.noboxshadow {
+    box-shadow: none;
+}
 #menu img {
     max-width: 100%;
 }
@@ -51,6 +127,37 @@ ul b {
     min-width: 0%;
     width: 40%;
 }
+
+/*cad*/
+@media screen and (max-width: 980px) {
+    #cadnav.col-12-medium {
+        background-color: white;
+        text-align: left;
+        box-shadow: none;
+    }
+}
+
+#bottomcad {
+    margin-bottom: 20px;
+}
+ul b {
+    font-size: 16px;
+
+}
+.nomargin {
+    margin: 5px;
+    
+}
+#cadnav {
+    background-color: rgba(229, 232, 233, 0.75);
+    
+    box-shadow: black 0px 0px 2px;
+}
+
+    #cadnav ul {
+        padding: 10px 15px;
+    }
+
 
 /*sponsors*/
 .sponsor header{
@@ -104,7 +211,7 @@ ul b {
     justify-content: center;
 }
 
-#sponsors-list > a {
+#sponsors-list > a, .viv > a {
     border-bottom: none;
 }
 
@@ -134,16 +241,19 @@ table {
     margin-top: 0;
 }
 #button-nav {
-  position: fixed;
-  
-  width: 100%;
-  background-color: #c7d3e5;
-  z-index: 2;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.75);
+    z-index: 2;
+    box-shadow: 0 3px 3px -3px black;
 }
 
+.nobottommargin {
+    margin-bottom: 15px;
+}
 #button-nav a{
+    border-bottom: none;
     color: white;
-    text-decoration: none
 }
     #button-nav p {
         margin: 0;
@@ -155,64 +265,17 @@ table {
 }
 /*about-first*/
 
-.row > .col-6 {
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 3%;
-    
-}
-
-
-    .row > .col-6 > a > img {
-        height: 100%;
-        border-radius: 3%;
-    }
-
-    .resizeme {
-        width: 499px;
-        height: 250px;
-    }
-
-@media screen and (max-width: 736px) {
-    .row > .col-6 > a> img {
-        width: 100%;
-    }
-    .margin-plz {
-        margin-top: 20px;
-    }
-}
-
-@media screen and (min-width: 1537px) {
-    .row > .col-6 > a > img {
-        width: 100%;
-
-    }
-    .row > .col-6 {
-        font-size: 16px;
-    }
-}
-
 .leagues img {
     width: 100%;
 }
 .we-in-here {
     position: relative;
-    top: 70px;
+    top: 80px;
 }
 .about-our-team-icons {
     float:right;
 }
 
-#our-journey-color {
-    color: #5194ff;
-}
-
-#our-journey-header {
-    top: 20px;
-    z-index: 1;
-    position: absolute;
-    color: #5194ff;
-}
 
 #hide-me img {
     display: none;
@@ -334,8 +397,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #7f888f;
-		font-family: "Open Sans", sans-serif;
-		font-size: 13pt;
+		font-family: "Karla", sans-serif;
+		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.65;
 	}
@@ -396,7 +459,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Roboto Slab", serif;
+		font-family: "Karla", serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -409,35 +472,35 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4em;
+		font-size: 5em;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.3em;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.1em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 
 	@media screen and (max-width: 1680px) {
 
 		h1 {
-			font-size: 3.5em;
+			font-size: 3.7em;
 		}
   
 
@@ -446,7 +509,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		h1 {
-			font-size: 3.25em;
+			font-size: 3.5em;
 		}
 
 	}
@@ -454,24 +517,24 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.3em;
 			line-height: 1.4;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.75em;
 		}
 
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 1em;
 		position: relative;
 		top: 0.5em;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 1em;
 		position: relative;
 		top: -0.5em;
 	}
@@ -488,7 +551,7 @@ input, select, textarea {
 		border-radius: 0.375em;
 		border: solid 1px rgba(210, 215, 217, 0.75);
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		karla: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
@@ -496,7 +559,7 @@ input, select, textarea {
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		karla: 0.9em;
 		margin: 0 0 2em 0;
 	}
 
@@ -2026,8 +2089,8 @@ input, select, textarea {
 	}
 
 	header p {
-		font-family: "Roboto Slab", serif;
-		font-size: 1em;
+		font-family: "Karla", serif;
+		karla: 1em;
 		font-weight: 400;
 		letter-spacing: 0.075em;
 		margin-top: -0.5em;
@@ -2054,7 +2117,7 @@ header.major > :last-child {
 	label {
 		color: #3d4449;
 		display: block;
-		font-size: 0.9em;
+		karla: 0.9em;
 		font-weight: 600;
 		margin: 0 0 1em 0;
 	}
@@ -2163,7 +2226,7 @@ header.major > :last-child {
 			color: #7f888f;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1em;
+			karla: 1em;
 			font-weight: 400;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
@@ -2191,7 +2254,7 @@ header.major > :last-child {
 				border: solid 1px rgba(210, 215, 217, 0.75);
 				content: '';
 				display: inline-block;
-				font-size: 0.8em;
+				karla: 0.8em;
 				height: 2.0625em;
 				left: 0;
 				line-height: 2.0625em;
@@ -2517,7 +2580,7 @@ header.major > :last-child {
 			}
 
 				ul.icons li .icon:before {
-					font-size: 1.25em;
+					karla: 1.25em;
 				}
 
 /* Contact */
@@ -2551,7 +2614,7 @@ header.major > :last-child {
 			ul.contact li:before {
 				color: #5194ff;
 				display: inline-block;
-				font-size: 1.5em;
+				karla: 1.5em;
 				height: 1.125em;
 				left: 0;
 				line-height: 1.125em;
@@ -2597,7 +2660,7 @@ header.major > :last-child {
 				border-bottom: 0;
 				border-radius: 0.375em;
 				display: inline-block;
-				font-size: 0.8em;
+				karla: 0.8em;
 				font-weight: 600;
 				height: 2em;
 				line-height: 2em;
@@ -2730,7 +2793,7 @@ header.major > :last-child {
 		color: #5194ff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Roboto Slab", serif;
+		font-family: "Karla", serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.5em;
@@ -3377,8 +3440,8 @@ header.major > :last-child {
 
 			#sidebar > .inner > * {
 				border-bottom: solid 2px rgba(210, 215, 217, 0.75);
-				margin: 0 0 3.5em 0;
-				padding: 0 0 3.5em 0;
+				margin: 0 0 1em 0;
+				padding: 0 0 1em 0;
 			}
 
 				#sidebar > .inner > * > :last-child {
@@ -3452,9 +3515,15 @@ header.major > :last-child {
 
 		@media screen and (max-width: 1680px) {
 
-			#sidebar {
-				width: 24em;
-			}
+            #sidebar {
+                width: 24em;
+                box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
+                height: 100%;
+                left: 0;
+                position: fixed;
+                top: 0;
+                z-index: 10000;
+            }
 
 				#sidebar > .inner {
 					padding: 1.66667em 1.66667em 1.33333em 1.66667em ;
@@ -3534,9 +3603,6 @@ header.major > :last-child {
 		}
 
 		@media screen and (max-width: 736px) {
-            #our-journey-header {
-                left: 80px;
-            }
 
 			#sidebar .toggle {
 				text-indent: 7.25em;
@@ -3587,7 +3653,7 @@ header.major > :last-child {
 		#header .logo {
 			border-bottom: 0;
 			color: inherit;
-			font-family: "Roboto Slab", serif;
+			font-family: "Karla", serif;
 			font-size: 1.125em;
 		}
 
@@ -3747,7 +3813,7 @@ header.major > :last-child {
 		-ms-user-select: none;
 		user-select: none;
 		color: #3d4449;
-		font-family: "Roboto Slab", serif;
+		font-family: "karla", serif;
 		font-family: 400;
 		letter-spacing: 0.075em;
 		list-style: none;
