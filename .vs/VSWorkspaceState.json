@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\js",
+    "\\assets\\webfonts",
     "\\images",
-    "\\images\\about",
     "\\images\\home",
     "\\images\\logos",
-    "\\images\\robots",
     "\\pdf",
-    "\\templates"
+    "\\pdf\\cad",
+    "\\pdf\\eng"
   ],
-  "SelectedNode": "\\assets\\css\\main.css",
+  "SelectedNode": "\\about-outreach.html",
   "PreviewInSolutionExplorer": false
 }
