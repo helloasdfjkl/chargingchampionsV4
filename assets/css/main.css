@@ -172,6 +172,10 @@ ul b {
     width: 80%;
 }
 
+.spon-ranks > .col-4 > h3 {
+    padding: 0;
+}
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -392,13 +396,15 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
-		color: #7f888f;
-		font-family: "Karla", sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
-		line-height: 1.65;
-	}
+body, input, select, textarea {
+    color: #7f888f;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.65;
+}
 
 		@media screen and (max-width: 1680px) {
 
