@@ -49,7 +49,13 @@
 
 @media screen and (max-width: 980px) {
     .slideshow {
-        background-color: none;
+        height: 400px;
+
+    }
+
+    .fitx {
+        width: 100%;
+        height: auto;
     }
 }
 /*robots*/
@@ -288,6 +294,13 @@ table {
         height: auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #resized-header {
+        width: 217.6px;
+        height:16.44px
+    }
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -461,12 +474,13 @@ body, input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		font-family: "Karla", serif;
-		font-weight: 700;
-		line-height: 1.5;
-		margin: 0 0 1em 0;
-	}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -2776,38 +2790,39 @@ header.major > :last-child {
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
-		border-radius: 0.375em;
-		border: 0;
-		box-shadow: inset 0 0 0 2px #5194ff;
-		color: #5194ff !important;
-		cursor: pointer;
-		display: inline-block;
-		font-family: "Karla", serif;
-		font-size: 0.8em;
-		font-weight: 700;
-		height: 3.5em;
-		letter-spacing: 0.075em;
-		line-height: 3.5em;
-		padding: 0 2.25em;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
-	}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 0.375em;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #5194ff;
+    color: #5194ff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    height: 3.5em;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -3811,20 +3826,22 @@ header.major > :last-child {
 
 /* Menu */
 
-	#menu ul {
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		color: #3d4449;
-		font-family: "karla", serif;
-		font-family: 400;
-		letter-spacing: 0.075em;
-		list-style: none;
-		margin-bottom: 0;
-		padding: 0;
-		text-transform: uppercase;
-	}
+#menu ul {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #3d4449;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+    letter-spacing: 0.075em;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
 
 		#menu ul a, #menu ul span {
 			border-bottom: 0;
