@@ -8,6 +8,7 @@
 */
 
 /*customized*/
+
 /*outreach*/
 .viv {
     display: flex;
@@ -114,11 +115,17 @@
         margin: 10px 0;
     }
 
+    @media screen and (min-width: 1680px) {
+        .jqbox_innerhtml h2 {
+            margin: 24px 0;
+        }
+    }
 .noboxshadow {
     box-shadow: none;
 }
 #menu img {
     max-width: 100%;
+    min-width: 0%;
 }
 
 .flexpaypal {
@@ -279,6 +286,21 @@ table {
     position: relative;
     top: 80px;
 }
+
+@media screen and (min-width: 1680px) {
+    .we-in-here {
+        top: 130px;
+    }
+
+    .we-in-here2 {
+        top: 110px;
+    }
+
+    .we-in-here3 {
+        position: relative;
+        top: 60px;
+    }
+}
 .about-our-team-icons {
     float:right;
 }
@@ -297,8 +319,8 @@ table {
 
 @media screen and (max-width: 500px) {
     #resized-header {
-        width: 217.6px;
-        height:16.44px
+        width: 217px;
+        height:16px;
     }
 }
 html, body, div, span, applet, object,
@@ -3531,8 +3553,7 @@ button,
 			margin-left: -26em;
 		}
 
-		@media screen and (max-width: 1680px) {
-
+		@media screen and (max-width: 1930px) {
             #sidebar {
                 width: 24em;
                 box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);

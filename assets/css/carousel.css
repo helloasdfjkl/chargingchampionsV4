@@ -4,6 +4,17 @@
 
     }
 }
+#history-vid {
+    width: 560px;
+    height: 315px;
+}
+
+@media screen and (min-width: 1680px) {
+    #history-vid {
+        width: 950px;
+        height: 590px;
+    }
+}
 img {
     min-width: 100%;
 }
