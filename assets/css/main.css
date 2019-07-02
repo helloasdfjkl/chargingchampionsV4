@@ -324,6 +324,9 @@ table {
     top: 80px;
     margin-bottom: 30px;
 }
+#small-header {
+    display: none;
+}
 
 @media screen and (min-width: 1680px) {
     .we-in-here {
@@ -343,14 +346,8 @@ table {
     float:right;
 }
 
-#hide-me img {
-    display: none;
-}
-@media screen and (max-width: 1500px) {
-
-}
-
-@media screen and (max-width: 500px) {
+/*index*/
+@media screen and (max-width: 736px) {
     #resized-header {
         display: none;
     }
