@@ -8,12 +8,18 @@
 */
 
 /*customized*/
-
+/*blog*/
+.navy {
+    position: fixed;
+}
 /*outreach*/
 .viv {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
 }
 .mySlides {
     display: none;
@@ -138,15 +144,11 @@
     height: 26.6px;
 }
 
-/*cad*/
-@media screen and (max-width: 980px) {
-    #cadnav.col-12-medium {
-        background-color: white;
-        text-align: left;
-        box-shadow: none;
-    }
-}
+/*resources*/
 
+#noborder {
+    border-right: none;
+}
 #bottomcad {
     margin-bottom: 20px;
 }
@@ -158,17 +160,30 @@ ul b {
     margin: 5px;
     
 }
-#cadnav {
-    background-color: rgba(229, 232, 233, 0.75);
-    
-    box-shadow: black 0px 0px 2px;
+.resnav {
+    border-right: groove 1px rgba(0,0,0,.2);
 }
 
-    #cadnav ul {
+@media screen and (max-width: 736px) {
+    .resnav {
+        border-right: none;
+    }
+}
+    .resnav ul {
         padding: 10px 15px;
+        
     }
 
+    .resnav > ul > li > a {
+        border-bottom: none;
+    }
 
+    @media screen and (max-width: 1280px) {
+        .resnav > ul > li {
+            text-align: left;
+        }
+    }
+    
 /*sponsors*/
 .sponsor header{
     text-align: center;
@@ -3353,7 +3368,6 @@ button,
 		flex-shrink: 1;
 		width: 100%;
 	}
-
 		#main > .inner {
 			padding: 0 6em 0.1em 6em ;
 			margin: 0 auto;
@@ -3364,7 +3378,7 @@ button,
 				padding: 6em 0 4em 0 ;
 				border-top: solid 2px rgba(210, 215, 217, 0.75);
 			}
-
+ 
 				#main > .inner > section:first-of-type {
 					border-top: 0 !important;
 				}

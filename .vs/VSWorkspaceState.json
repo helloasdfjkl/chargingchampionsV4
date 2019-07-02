@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\js",
-    "\\assets\\webfonts",
+    "\\about",
+    "\\documentation",
     "\\images",
     "\\images\\home",
     "\\images\\logos",
     "\\pdf",
     "\\pdf\\cad",
-    "\\pdf\\eng"
+    "\\pdf\\eng",
+    "\\templates"
   ],
-  "SelectedNode": "\\about-outreach.html",
+  "SelectedNode": "\\resources-subteams.html",
   "PreviewInSolutionExplorer": false
 }

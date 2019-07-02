@@ -6,17 +6,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="shortcut icon" href="images/logos/icon1.png">
 </head>
 
 <body class="is-preload">
- <!-- Wrapper -->
     <div id="wrapper">
-
-        <!-- Main -->
         <div id="main">
-			<div class="inner">
+			<div class="inner"><div class="we-in-here">
                 <div id="our-journey-header" class="inner">
                     <h2 id="our-history-color">Header</h2>
                 </div>
@@ -27,6 +23,7 @@
 
                 <!-- Menu -->
                 <nav id="menu">
+					<img src="https://i.postimg.cc/FsYcTHQW/logonew.png" />
                     <form target ="_blank" style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="TCYYLLYPK6S5W">
@@ -39,22 +36,23 @@
                             <ul>
                                 <li><a href="about-our-team.html">Our Team</a></li>
                                 <li><a href="about-our-history.html">Our History</a></li>
+								<li><a href="about-outreach.html">Outreach</a></li>
                                 <li><a href="about-awards.html">Awards</a></li>
                                 <li><a href="about-first.html">FIRST Robotics</a></li>
                             </ul>
                         </li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li>
-                            <span class="opener">Documentation</span>
+                            <span class="opener">Resources</span>
                             <ul>
-                                <li><a href="documentation-notebook.html">Notebook</a></li>
-                                <li><a href="documentation-cad.html">CAD</a></li>
-                                <li><a href="documentation-robots.html">Robots</a></li>
-                                <li><a href="documentation-videos.html">Videos</a></li>
+                                <li><a href="resources-subteams.html">Subteams</a></li>
+                                <li><a href="resources-robots.html">Robots</a></li>
+								<li><a href="resources-blog.html">Blog</a></li>
+                                <li><a href="resources-references.html">References</a></li>
                             </ul>
                         </li>
                         <li><a href="support-us.html">Support Us</a></li>
-
+					</ul>
                 </nav>
 
               
