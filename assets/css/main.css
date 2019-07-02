@@ -9,6 +9,28 @@
 
 /*customized*/
 /*blog*/
+.inner2 {
+    padding: 0 10% 0.1em 10%;
+}
+
+.inner2 > .we-in-here {
+    background-color: white;
+    padding: 20px;
+    border-left: dashed 1px rgba(0,0,0,0.2);
+    border-right: dashed 1px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 736px) {
+    .inner2 {
+        padding: 0 2em 0.1em 2em;
+    }
+
+    .inner2 > .we-in-here {
+        border-left: none;
+        border-right: none;
+    }
+}
+
 .navy {
     position: fixed;
 }
@@ -300,6 +322,7 @@ table {
 .we-in-here {
     position: relative;
     top: 80px;
+    margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1680px) {
@@ -320,22 +343,20 @@ table {
     float:right;
 }
 
-
 #hide-me img {
     display: none;
 }
 @media screen and (max-width: 1500px) {
 
-    #resized-header {
-        width:70%;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 500px) {
+   
+
     #resized-header {
-        width: 217px;
-        height:16px;
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }
 html, body, div, span, applet, object,
@@ -3725,9 +3746,10 @@ button,
 
 		@media screen and (max-width: 736px) {
 
-			#header {
-				padding-top: 6.5em;
-			}
+            #header {
+                padding-top: 6.5em;
+                justify-content: center;
+            }
 
 				#header .logo {
 					font-size: 1.25em;
@@ -3741,6 +3763,13 @@ button,
 					right: -0.5em;
 					top: 0;
 				}
+
+                #header > * {
+                    flex: none;
+                    -moz-box-flex: none;
+                    -webkit-flex: none;
+                    -ms-flex: none;
+                }
 
 		}
 
