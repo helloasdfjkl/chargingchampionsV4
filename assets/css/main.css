@@ -351,13 +351,16 @@ table {
 }
 
 @media screen and (max-width: 500px) {
-   
-
     #resized-header {
+        display: none;
+    }
+
+    #small-header {
         display: block;
-        width: 100%;
+        width: 50%;
         height: auto;
     }
+
 }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
