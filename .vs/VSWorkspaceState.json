@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\about",
-    "\\documentation",
+    "\\assets",
+    "\\assets\\css",
     "\\images",
     "\\images\\home",
     "\\images\\logos",
@@ -11,6 +11,6 @@
     "\\pdf\\eng",
     "\\templates"
   ],
-  "SelectedNode": "\\sponsors.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
