@@ -3,14 +3,12 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\images",
-    "\\images\\home",
-    "\\images\\logos",
-    "\\pdf",
-    "\\pdf\\cad",
-    "\\pdf\\eng",
+    "\\assets\\fancyBox-src",
+    "\\assets\\fancyBox-src\\css",
+    "\\assets\\fancyBox-src\\js",
+    "\\assets\\js",
     "\\templates"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\resources-subteams.html",
   "PreviewInSolutionExplorer": false
 }

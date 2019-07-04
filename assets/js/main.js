@@ -13,7 +13,8 @@
 		$body = $('body');
 
 	// Breakpoints.
-		breakpoints({
+    breakpoints({
+            impossible: ['5000px', '6000px'],
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '737px',   '980px'  ],
@@ -27,17 +28,19 @@
 	// Stops animations/transitions until the page has ...
 
 		// ... loaded.
+
 			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-preload');
+                window.setTimeout(function () {
+                    
+                    $body.removeClass('is-preload');
 				}, 100);
 			});
 
 		// ... stopped resizing.
 			var resizeTimeout;
-
+            
 			$window.on('resize', function() {
-
+                    
 				// Mark as resizing.
 					$body.addClass('is-resizing');
 
@@ -76,11 +79,11 @@
 			$sidebar_inner = $sidebar.children('.inner');
 
 		// Inactive by default on <= large.
-			breakpoints.on('<=large', function() {
+			breakpoints.on('<=impossible', function() {
 				$sidebar.addClass('inactive');
 			});
 
-			breakpoints.on('>large', function() {
+			breakpoints.on('>impossible', function() {
 				$sidebar.removeClass('inactive');
 			});
 
@@ -110,7 +113,7 @@
 				$sidebar.on('click', 'a', function(event) {
 
 					// >large? Bail.
-						if (breakpoints.active('>large'))
+						if (breakpoints.active('>impossible'))
 							return;
 
 					// Vars.
@@ -145,7 +148,7 @@
 				$sidebar.on('click touchend touchstart touchmove', function(event) {
 
 					// >large? Bail.
-						if (breakpoints.active('>large'))
+						if (breakpoints.active('>impossible'))
 							return;
 
 					// Prevent propagation.
@@ -157,7 +160,7 @@
 				$body.on('click touchend', function(event) {
 
 					// >large? Bail.
-						if (breakpoints.active('>large'))
+						if (breakpoints.active('>impossible'))
 							return;
 
 					// Deactivate.
