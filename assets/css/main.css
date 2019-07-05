@@ -25,6 +25,13 @@
     font-size: 25px;
 }
 
+#bottomcad img {
+    margin-bottom: 0;
+}
+#bottomcad span {
+    font-size: 16px;
+}
+
 @media screen and (max-width: 1280px) {
     #med-noborder, #med-noborder2 {
         border-right: none;
