@@ -10,6 +10,5 @@ LICENSE: CCA 3.0 license (html5up.net/license)
 6. Responsive Tools >> github.com/ajlkn/responsive-tools)
 7. baguetteBox >> https://github.com/feimosi/baguetteBox.js/
 8. fancyBox >> https://fancyapps.com/fancybox/3/
-9. postimage >> https://postimages.org/
 
 & w3schools, stack overflow, and css-tricks <3
