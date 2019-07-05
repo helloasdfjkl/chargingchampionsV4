@@ -166,7 +166,23 @@
 					// Deactivate.
 						$sidebar.addClass('inactive');
 
-				});
+                });
+
+            // hide panel on body hover
+                $sidebar.on({
+                    mouseenter: function () {
+                        $sidebar.fadeIn();
+                    },
+                    mouseleave: function () {
+                        $sidebar.addClass('inactive');
+
+                //delay the fade out to see whether the mouse is moved to the second button
+                var timer = setTimeout(function () {
+                    $target.stop(true, true).fadeOut();
+                    }, 300);
+                $target.data('hoverTimer', timer);
+                    }
+                });
 
 		// Scroll lock.
 		// Note: If you do anything to change the height of the sidebar's content, be sure to
