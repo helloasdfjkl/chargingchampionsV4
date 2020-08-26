@@ -1,5 +1,8 @@
 Hello! This is the code for the FRC 6560 Charging Champions website.
 
+Official page up on *chargingchampions.org*
+SEE THIS VERSION here: https://helloasdfjkl.github.io/chargingchampionsV4/index.html
+
 Credits:
 1. Microsoft Visual Studio 2019 :) >> https://visualstudio.microsoft.com/
 2. DESIGN: Editorial by HTML5UP. >> AJ html5up.net | @ajlkn
